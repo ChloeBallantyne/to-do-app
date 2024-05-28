@@ -1,0 +1,65 @@
+.todo_card {
+  width: 80%;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+}
+
+.checkbox {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &_input {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border: none;
+  }
+}
+
+.item_wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  h3 {
+    color: #717171;
+    margin: 0;
+    padding: 0;
+  }
+  h5 {
+    color: #d8d8d8;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.buttons {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+}
+
+.delete_button {
+  background-color: #eeeeee;
+  border: none;
+  color: #585858;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.edit_button {
+  background-color: #eeeeee;
+  border: none;
+  color: #585858;
+  padding: 5px;
+  border-radius: 5px;
+}

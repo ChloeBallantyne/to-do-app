@@ -1,0 +1,46 @@
+.head_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: #646681;
+    font-weight: 800;
+  }
+}
+
+.option_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo_wrapper {
+  background-color: #ecedf6;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.add_button {
+  background-color: #6370f0;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.filter_option {
+  background-color: #cccddf;
+  border: none;
+  color: #86878f;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
